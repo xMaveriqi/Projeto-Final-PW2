@@ -20,7 +20,7 @@ function obterCarteira(): Carteira
 
 $carteira = obterCarteira();
 $message = '';
-$messageType = 'susseso';
+$messageType = 'suçeso';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $tipo = filter_input(INPUT_POST, 'tipo', FILTER_SANITIZE_STRING) ?? '';
